@@ -8,18 +8,18 @@ My company (refered to as Company below) is an educational services company that
 ## User story:
 User types: Student Manager, Admin
 
-## Instructors Page
+### Instructors Page
 All authenticated users can view list of instructors. Users can order the list by clicking on row head.
 If user clicks instructor name, automatically routed to instructor detail page.
 If user clicks subject, automatically routed to subject page. 
 
-## Instructor Detail Page
+### Instructor Detail Page
 All authenticated users can view instructor info and provide rating for instructor. 
 
-## Subject Page
+### Subject Page
 All authenticated users can see all available instructors of a given subject. 
 
-## Admin Page
+### Admin Page
 Admin can add, update, and delete instructor. 
 Admin can create new student manager or admin accounts. 
 ??not sure: Admin can create new subject? 
