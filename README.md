@@ -3,7 +3,7 @@
 This project is currently in developement. 
 
 ## Issue:
-My company (refered to as Company below) is an educational services company that provide tutoring sessions to students, and many tutoring sessions are outsources to independent contractors. There is a large number of contractors, and Company needs a more efficient system to keep track of instructor information and tutoring subjects to streamline the scheduling process. 
+My company (referred to as Company below) is an educational services company that provide tutoring sessions to students, and many tutoring sessions are outsources to independent contractors. There is a large number of contractors, and Company needs a more efficient system to keep track of instructor information and tutoring subjects to streamline the scheduling process. 
 
 ## User story:
 User types: Student Manager, Admin
