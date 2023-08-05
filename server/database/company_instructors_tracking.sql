@@ -19,7 +19,7 @@ CREATE TABLE instructor (
     instructor_rating int,
     instructor_description varchar,
     is_chinese_speaking BOOLEAN,
-    CONSTRAINT PK_instructor PRIMARY KEY (instructor_id)
+    CONSTRAINT PK_instructor PRIMARY KEY (instructor_id),
     CONSTRAINT CHK_instructor_rating CHECK (instructor_rating >= 0 AND instructor_rating <= 100),
     CONSTRAINT CHK_instructor_timezone CHECK (instructor_timezone IN ('PST', 'EST', 'CST', 'CHN', 'UK', 'EURO', 'OTHER'))
 );
