@@ -73,8 +73,8 @@ INSERT INTO instructor_subject (subject_id, instructor_id, comfortability_level)
     (4, 2, 5),
     (1, 3, 3),
     (3, 3, 5),
-    (4, 1, 5),
-    (4, 2, 5);
+    (1, 4, 5),
+    (2, 4, 5);
 
 
 COMMIT TRANSACTION;
