@@ -26,7 +26,7 @@ Admin can create new student manager or admin accounts. \
 
 ## Project Development Plan:
 - [x] generate diagram for API
-- [ ] write SQL database (wrote test data; no user authentication function at this time)
+- [x] write SQL database (wrote test data; no user authentication function at this time)
 - [ ] write REST API with Spring Boot
 - [ ] write front end
 - [ ] project online 
