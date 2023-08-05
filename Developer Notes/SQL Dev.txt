@@ -1,0 +1,14 @@
+instructor_id* SERIAL
+instructor_name VARCHAR
+instructor_timezone CHARACTER(3)
+instructor_rating INTEGER
+instructor_description varchar
+
+
+subject_id* SERIAL
+subject_name VARCHAR
+
+entry_id
+subject_id**
+instructor_id**
+comfortability_level

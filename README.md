@@ -25,8 +25,8 @@ Admin can create new student manager or admin accounts. \
 ??not sure: Admin can create new subject? 
 
 ## Project Development Plan:
-- [ ] generate diagram for API
-- [ ] write SQL databse
+- [x] generate diagram for API
+- [ ] write SQL database (wrote test data; no user authentication function at this time)
 - [ ] write REST API with Spring Boot
 - [ ] write front end
 - [ ] project online 
