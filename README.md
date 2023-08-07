@@ -30,3 +30,14 @@ Admin can create new student manager or admin accounts. \
 - [ ] write REST API with Spring Boot
 - [ ] write front end
 - [ ] project online 
+
+## Developer Progress Notes:
+<ul>
+<li>
+8/5/2023: Wrote SQL Script
+</li>
+<li>
+8/6/2023: Created Spring Boot application.\
+Next Step: Plan Controllers. Write in comment.
+</li>
+</ul>
