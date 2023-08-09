@@ -1,6 +1,6 @@
 # Welcome to my project in development.
 
-This project is currently in developement. 
+This project is currently in development. 
 
 ## Issue:
 My company (referred to as Company below) is an educational services company that provide tutoring sessions to students, and many tutoring sessions are outsources to independent contractors. There is a large number of contractors, and Company needs a more efficient system to keep track of instructor information and tutoring subjects to streamline the scheduling process. 
@@ -39,5 +39,9 @@ Admin can create new student manager or admin accounts. \
 <li>
 8/6/2023: Created Spring Boot application.\
 Next Step: Plan Controllers. Write in comment.
+</li>
+<li>
+8/8/2023: Generally planned controllers. 
+Next Step: Rethink controllers. Write Spring Boot.
 </li>
 </ul>
