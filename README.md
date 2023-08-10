@@ -37,11 +37,15 @@ Admin can create new student manager or admin accounts. \
 8/5/2023: Wrote SQL Script
 </li>
 <li>
-8/6/2023: Created Spring Boot application.\
+8/6/2023: Created Spring Boot application. \
 Next Step: Plan Controllers. Write in comment.
 </li>
 <li>
-8/8/2023: Generally planned controllers. 
+8/8/2023: Generally planned controllers. \
 Next Step: Rethink controllers. Write Spring Boot.
+</li>
+<li>
+8/9/2023: Worked on Instructors Controller. Wrote Instructor Model. Finished Instructor DAO Interface. Finished Instructor DAO getAll and Find. Tested.
+Next Step: Finished other methods in Instructor DAO. Test. Repeat for other models.
 </li>
 </ul>
