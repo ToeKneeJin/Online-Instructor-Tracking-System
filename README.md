@@ -46,6 +46,9 @@ Next Step: Rethink controllers. Write Spring Boot.
 </li>
 <li>
 8/9/2023: Worked on Instructors Controller. Wrote Instructor Model. Finished Instructor DAO Interface. Finished Instructor DAO getAll and Find. Tested.
-Next Step: Finished other methods in Instructor DAO. Test. Repeat for other models.
+Next Step: Finish other methods in Instructor DAO. Test. Repeat for other models.
+</li>
+<li>
+8/10/2023: Finished Instructor DAO and tested.
 </li>
 </ul>

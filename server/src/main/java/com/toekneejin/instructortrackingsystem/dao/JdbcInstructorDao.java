@@ -43,22 +43,35 @@ public class JdbcInstructorDao implements InstructorDao {
 
     @Override
     public Instructor getById(int id) {
-        return null;
+        String sql = "SELECT * FROM instructor WHERE instructor_id = ?";
+        SqlRowSet result = jdbcTemplate.queryForRowSet(sql, id);
+        if(result.next()){
+            return mapRowtoInstructor(result);
+        }else{
+            return null;
+        }
     }
 
     @Override
     public Instructor addInstructor(Instructor instructor) {
-        return null;
+        String sql = "INSERT INTO instructor (instructor_name, instructor_timezone, instructor_rating, instructor_description, is_chinese_speaking)" +
+                " VALUES (?, ?, ?, ?, ?) RETURNING instructor_id";
+        int ID = jdbcTemplate.queryForObject(sql, int.class, instructor.getInstructorName(), instructor.getInstructorTimeZone(), instructor.getInstructorRating(), instructor.getInstructorDescription(), instructor.isChineseSpeaking());
+        return getById(ID);
     }
 
     @Override
     public Instructor updateInstructor(int id, Instructor instructor) {
-        return null;
+        String sql = "UPDATE instructor SET instructor_name = ?, instructor_timezone = ?, instructor_rating = ?, instructor_description = ?, is_chinese_speaking = ?" +
+                " WHERE instructor_id = ?";
+        jdbcTemplate.update(sql, instructor.getInstructorName(), instructor.getInstructorTimeZone(), instructor.getInstructorRating(), instructor.getInstructorDescription(), instructor.isChineseSpeaking(), id);
+        return getById(id);
     }
 
     @Override
     public void deleteInstructor(int id) {
-
+        String sql = "DELETE FROM instructor WHERE instructor_id = ?";
+        jdbcTemplate.update(sql, id);
     }
 
     private Instructor mapRowtoInstructor(SqlRowSet rs){
