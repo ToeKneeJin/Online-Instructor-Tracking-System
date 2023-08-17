@@ -51,4 +51,8 @@ Next Step: Finish other methods in Instructor DAO. Test. Repeat for other models
 <li>
 8/10/2023: Finished Instructor DAO and tested.
 </li>
+<li>
+8/17/2023: Back from Break. Working on Subjects.
+Next Step: Work on JdbcSubjectDao and Tests 
+</li>
 </ul>
