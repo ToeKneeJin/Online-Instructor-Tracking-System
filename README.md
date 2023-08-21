@@ -45,14 +45,18 @@ Next Step: Plan Controllers. Write in comment.
 Next Step: Rethink controllers. Write Spring Boot.
 </li>
 <li>
-8/9/2023: Worked on Instructors Controller. Wrote Instructor Model. Finished Instructor DAO Interface. Finished Instructor DAO getAll and Find. Tested.
+8/9/2023: Worked on Instructors Controller. Wrote Instructor Model. Finished Instructor DAO Interface. Finished Instructor DAO getAll and Find. Tested. \ 
 Next Step: Finish other methods in Instructor DAO. Test. Repeat for other models.
 </li>
 <li>
 8/10/2023: Finished Instructor DAO and tested.
 </li>
 <li>
-8/17/2023: Back from Break. Working on Subjects.
+8/17/2023: Back from Break. Working on Subjects. \ 
 Next Step: Work on JdbcSubjectDao and Tests 
+</li>
+<li>
+8/21/2023: Finished Subjects. \ 
+Next Step: Work on Subject-Instructor Objects
 </li>
 </ul>

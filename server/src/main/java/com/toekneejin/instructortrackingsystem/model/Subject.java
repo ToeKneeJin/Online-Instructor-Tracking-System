@@ -17,13 +17,24 @@ public class Subject {
         this.subjectName = subjectName;
     }
 
-    public Subject(int subjectId, String subjectName) {
+    public Subject(int subjectId, String subjectName, String subjectDetails) {
         this.subjectId = subjectId;
         this.subjectName = subjectName;
+        this.subjectDetails = subjectDetails;
     }
 
     public Subject(){}
 
     private int subjectId;
     private String subjectName;
+
+    public String getSubjectDetails() {
+        return subjectDetails;
+    }
+
+    public void setSubjectDetails(String subjectDetails) {
+        this.subjectDetails = subjectDetails;
+    }
+
+    private String subjectDetails;
 }
