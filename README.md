@@ -56,7 +56,11 @@ Next Step: Finish other methods in Instructor DAO. Test. Repeat for other models
 Next Step: Work on JdbcSubjectDao and Tests 
 </li>
 <li>
-8/21/2023: Finished Subjects. \ 
+8/20/2023: Finished Subjects. \ 
 Next Step: Work on Subject-Instructor Objects
+</li>
+<li>
+8/21/2023: Finished Subject-Instructor Controller, Object
+Next Step: Work on JdbcSubjectInstructorDao, test (last of backend)
 </li>
 </ul>

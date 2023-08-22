@@ -16,10 +16,6 @@ import java.util.List;
 // delete instructor
 */
 
-/*
-// get subjects and comfortability by instructor
-// get instructors by subject
-*/
 
 @RestController
 @CrossOrigin
