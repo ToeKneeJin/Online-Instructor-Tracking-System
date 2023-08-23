@@ -25,17 +25,17 @@ public class InstructorSubjectController {
     public InstructorSubjectController(InstructorSubjectDao instructorSubjectDao){this.instructorSubjectDao = instructorSubjectDao;}
 
     @RequestMapping(path = "/instructor/{id}/subjects", method = RequestMethod.GET)
-    public List<SubjectComfortabilityObj> getSubjectInfoByInstructorId(@PathVariable int instructorId){
-        List<SubjectComfortabilityObj> list = instructorSubjectDao.getSubjectInfoByInstructorId(instructorId);
+    public List<SubjectComfortabilityObj> getSubjectInfoByInstructorId(@PathVariable int id){
+        List<SubjectComfortabilityObj> list = instructorSubjectDao.getSubjectInfoByInstructorId(id);
         if(list == null){
             throw new ResponseStatusException(HttpStatus.NOT_FOUND, String.format("Instructor ID not found"));
         }
         return list;
     }
 
-    @RequestMapping(path = "/subjects/{id}", method = RequestMethod.GET)
-    public List<Instructor> getInstructorsBySubjectId(@PathVariable int subjectId){
-        List<Instructor> list = instructorSubjectDao.getInstructorInfoBySubjectId(subjectId);
+    @RequestMapping(path = "/subjects/byInstructor/{id}", method = RequestMethod.GET)
+    public List<Instructor> getInstructorsBySubjectId(@PathVariable int id){
+        List<Instructor> list = instructorSubjectDao.getInstructorInfoBySubjectId(id);
         if(list == null){
             throw new ResponseStatusException(HttpStatus.NOT_FOUND, String.format("Subject ID not found"));
         }

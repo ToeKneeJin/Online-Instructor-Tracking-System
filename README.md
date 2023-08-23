@@ -63,4 +63,8 @@ Next Step: Work on Subject-Instructor Objects
 8/21/2023: Finished Subject-Instructor Controller, Object
 Next Step: Work on JdbcSubjectInstructorDao, test (last of backend)
 </li>
+<li>
+8/23/2023: Worked on SubjectInstructorDao
+Next Step: Work on InstructorService. Think about SubjectComObj. Test
+</li>
 </ul>
